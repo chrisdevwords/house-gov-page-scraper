@@ -1,0 +1,56 @@
+{
+  "name": "house-gov-page-scraper",
+  "version": "0.0.1",
+  "description": "a node module for scraping info from the US House of Representatives website: house.gov",
+  "main": "./dist/index.js",
+  "files": [
+    "dist/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisdevwords/house-gov-page-scraper"
+  },
+  "scripts": {
+    "test": "nyc mocha ./test",
+    "lint": "eslint src/",
+    "compile": "rm -rf dist && babel --presets es2015 -d dist/ src/",
+    "prepublish": "npm run compile"
+  },
+  "engines": {
+    "node": ">=4.3.2"
+  },
+  "engine-strict": true,
+  "keywords": [
+    "nodejs",
+    "congress",
+    "house of representatives",
+    "page scraping",
+    "government",
+    "unitedstates",
+    "united states",
+    "geolocation"
+  ],
+  "author": "chrisedwards82@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.79.0",
+    "request-promise-native": "^1.0.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-plugin-array-includes": "^2.0.3",
+    "babel-polyfill": "^6.20.0",
+    "babel-preset-es2015": "^6.18.0",
+    "chai": "^3.5.0",
+    "coveralls": "^2.11.15",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-babel": "^4.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "mocha": "^3.2.0",
+    "mocha-lcov-reporter": "^1.2.0",
+    "nyc": "^10.0.0",
+    "sinon": "^1.17.6"
+  }
+}
