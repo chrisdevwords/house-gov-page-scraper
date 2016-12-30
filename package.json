@@ -1,6 +1,6 @@
 {
   "name": "house-gov-page-scraper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "a node module for scraping info from the US House of Representatives website: house.gov",
   "main": "./dist/index.js",
   "files": [
