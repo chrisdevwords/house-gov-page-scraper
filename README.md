@@ -1,7 +1,7 @@
 # House.gov Page Scraper
 Scrapes the [representative finder](http://ziplook.house.gov/htbin/findrep) on [House.gov](http://house.gov).
 
-[![CircleCI](https://circleci.com/gh/chrisdevwords/house-gov-page-scraper/tree/master.svg?style=shield)](https://circleci.com/gh/chrisdevwords/congressional-district-finder/tree/master)
+[![CircleCI](https://circleci.com/gh/chrisdevwords/house-gov-page-scraper/tree/master.svg?style=shield)](https://circleci.com/gh/chrisdevwords/house-gov-page-scraper/tree/master)
 [![Coverage Status](https://coveralls.io/repos/github/chrisdevwords/house-gov-page-scraper/badge.svg?branch=master)](https://coveralls.io/github/chrisdevwords/house-gov-page-scraper?branch=master)
 [![Dependency Status](https://david-dm.org/chrisdevwords/house-gov-page-scraper.svg)](https://david-dm.org/chrisdevwords/house-gov-page-scraper)
 [![Dev Dependency Status](https://david-dm.org/chrisdevwords/house-gov-page-scraper/dev-status.svg)](https://david-dm.org/chrisdevwords/house-gov-page-scraper?type=dev)
